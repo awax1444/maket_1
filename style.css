@@ -1,89 +1,87 @@
 html {
     margin: 0px;
+
 }
 
 body {
     margin: 0px;
+
 }
 
 header {
     background-color: rgb(6, 165, 6);
-    width: 100%;
     height: 160px;
     margin: 0px;
 }
 
 .logo {
-    position: relative;
-    top: -460px;
-    left: 50px;
+    margin: 40px 70px;
 }
 
-.in head {
-    height: 160px;
-    width: 100px;
-}
-
-div {
-    height: 500px;
-    margin: 0px;
+main {
+    display: block;
+    height: 522px;
 }
 
 aside {
-    background-color: rgb(209, 209, 209);
-    height: 500px;
-    width: 240px;
+    background-color: rgb(221, 221, 221);
+    height: 100%;
+    width: 230px;
     float: left;
     margin: 0px;
     text-align: center;
+
+}
+
+.item_general {
+    padding-right: 105px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.a_item {
+    text-decoration: none;
+    color: blue;
+}
+
+.item_part {
+    padding-bottom: 15px;
+}
+
+section {
+    padding: 40px 40px 40px 270px;
+    height: max-content;
 }
 
 h1 {
     margin: 0px;
     color: rgb(148, 148, 148);
-    position: relative;
-    left: -90px;
-}
-
-.mi {
-    position: absolute;
-    left: 22.5px;
-
-}
-
-.black {
-    color: black;
-}
-
-.lorem {
-    line-height: 80px;
-    display: inline;
-    margin-inline-start: 75px;
+    font-size: 35px;
 }
 
 p {
-    position: relative;
-    right: 90px;
     margin-bottom: 10px;
-}
-
-main {
-    height: 500px;
-    width: 1300px;
-
-}
-
-.text {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    left: 240px;
 }
 
 footer {
     background: linear-gradient(rgb(233, 233, 233), rgb(117, 117, 117));
-    width: 100%;
-    height: 97px;
-    margin: 0px;
+    height: 75px;
     text-align: center;
+    margin-top: 0px;
+
+}
+
+.Lorem_general {
+    list-style-type: none;
+    padding-top: 25px;
+    margin: 0px;
+}
+
+.Lorem_part {
+    display: inline;
+    padding-right: 65px;
+}
+
+.a_Lorem {
+    color: black
 }
